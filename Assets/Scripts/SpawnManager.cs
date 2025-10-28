@@ -5,6 +5,7 @@ using UnityEngine;
 public class SpawnManager : MonoBehaviour
 {
     public GameObject obstaclePrefab;
+    private Vector3 spawnPos;
     // Start is called before the first frame update
     void Start()
     {
