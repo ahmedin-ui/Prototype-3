@@ -9,7 +9,7 @@ public class PlayerController : MonoBehaviour
     void Start()
     {
         playerRb = GetComponent<Rigidbody>();
-        playerRb.AddForce(Vector3.up * 1000);
+        playerRb.AddFroce(Vector3.up * 1000);
         
     }
 
