@@ -8,7 +8,8 @@ public class PlayerController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        playerRb = GetComponent<Rigidbody>();
+        playerRb.AddForce(Vector3.up * 1000);
         
     }
 
